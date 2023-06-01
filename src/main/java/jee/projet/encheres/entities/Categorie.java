@@ -20,7 +20,7 @@ public class Categorie {
     private String nomCategorie;
     private String descriptionCategorie;
 
-    // Relation : Catégorie : 1-N : Produit  //
+    // Relation : Catégorie : 1-N : Produit : //
     @OneToMany(mappedBy = "categorie")
     private List<Produit> produits;
 
