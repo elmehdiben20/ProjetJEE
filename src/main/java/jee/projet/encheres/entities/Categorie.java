@@ -23,7 +23,4 @@ public class Categorie {
     // Relation : Catégorie : 1-N : Produit : //
     @OneToMany(mappedBy = "categorie")
     private List<Produit> produits;
-
-
-
 }

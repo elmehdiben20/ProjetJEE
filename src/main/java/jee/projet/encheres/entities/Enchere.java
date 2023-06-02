@@ -26,7 +26,7 @@ public class Enchere {
     private LocalTime heureFin;
     private double prixFinal;
 
-    // Relation : Enchère : 1-N : Produit  //
+    // Relation : Enchère : 1-N : Produit :   //
     @ManyToOne
     @JoinColumn(name = "idProduit")
     private Produit produit;
